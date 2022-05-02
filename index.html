@@ -60,11 +60,27 @@
       <section class="hero section">
         <div class="container mean">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-          <button class="btn" type="button" name="Заказать услугу">
+          <button
+            class="btn"
+            type="button"
+            name="Заказать услугу"
+            data-modal-open
+          >
             Заказать услугу
           </button>
         </div>
       </section>
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <button type="button" data-modal-close>
+            <img
+              class="modal-btn"
+              src="/images/closeicon.png"
+              alt="закрывающая кнопка"
+            />
+          </button>
+        </div>
+      </div>
 
       <section class="section benefits">
         <div class="container">
@@ -132,6 +148,9 @@
                 alt="кодирование при помощи планшета и клавиатуры"
                 width="370"
               />
+              <div class="visual-window">
+                <h3 class="visual-window-text">Десктопные приложения</h3>
+              </div>
             </li>
             <li class="item">
               <img
@@ -140,6 +159,9 @@
                 alt="верстка на лаптопе при прмощи большого экрана и смартфона"
                 width="370"
               />
+              <div class="visual-window">
+                <h3 class="visual-window-text">Мобильные приложения</h3>
+              </div>
             </li>
             <li class="item">
               <img
@@ -148,6 +170,9 @@
                 alt="дизайн на планшете при помощи пера,монитор и клавиатура не задействованы"
                 width="370"
               />
+              <div class="visual-window">
+                <h3 class="visual-window-text">Дизайнерские решения</h3>
+              </div>
             </li>
           </ul>
         </div>
@@ -591,5 +616,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
