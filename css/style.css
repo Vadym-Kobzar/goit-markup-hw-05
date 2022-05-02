@@ -87,8 +87,10 @@ a {
   width: 30px;
   height: 30px;
   border: 1px, solid;
-  border-radius: 50%;
+
   border-color: rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  background-color: #ffffff;
 }
 
 /*----------HEADER-------*/
